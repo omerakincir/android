@@ -7,32 +7,62 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <Button
-        android:layout_width="match_parent"
-        android:text="Buton"
-        android:layout_height="wrap_content"/>
+<ImageView
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:background="@drawable/skype"
+    android:layout_height="wrap_content"/>
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:text="Temel Arayüz Elemanları"
-        android:layout_height="wrap_content"/>
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
 
-    <ImageView
-        android:layout_width="100dp"
-        android:background="@drawable/ic_launcher_foreground"
-        android:layout_height="100dp"/>
-    
-    <CalendarView
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/user"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="250dp"
+            android:hint="Skype Name"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"/>
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:hint="Yaşınızı Giriniz "
-        android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:background="@drawable/padlock"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"/>
 
-    <CheckBox
+        <EditText
+            android:layout_width="250dp"
+            android:hint="Password"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:text="Onaylıyor musunuz ?"
-        android:layout_height="wrap_content"/>
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Sign in"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
 </LinearLayout>
