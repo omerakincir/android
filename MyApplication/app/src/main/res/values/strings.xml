@@ -1,5 +1,3 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="ad">Adınız</string>
-    <string name="soyad">Soyadınız</string>
+    <string name="app_name">tasarim</string>
 </resources>
